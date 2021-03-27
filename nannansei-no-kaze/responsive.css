@@ -1,0 +1,143 @@
+/*タブレット向け*/
+@media(max-width:1000px){
+  .header-char{
+    font-size:43px;
+    margin-left:-22px;
+  }
+
+  .header-char span{
+    font-size:24.5px;
+  }
+  .header-right{
+    font-size:13px;
+    margin-right:-20px;
+  }
+  .header-right li{
+    margin:8px 3.5px;
+    line-height:32px;
+
+  }
+  .menu-icon{
+    display:none;
+  }
+
+  .menu-item{
+    
+    width:50%;
+  }
+
+  .menu-image{
+    height:200px;
+    width:250px;
+  }
+  .info-wrapper-contents{
+    width:100%;
+    text-align:center;
+
+  }
+  .info-wrapper h3{
+    text-align:center;
+  }
+
+  .heading h1, .heading h2{
+    font-size:28px;
+
+  }
+  .master{
+    height:730px;
+  }
+  .master-info{
+
+    width:100%;
+  }
+.master-image{
+  height:300px;
+}
+.master-comment{
+  padding-top:0px;
+}
+.w img{
+  width:100%;
+  height:890px;
+  width:693px;
+}
+.h img{
+  padding-left:0px;
+  padding-right:0px;
+  height:890px;
+  width:693px;
+}
+
+}
+
+/*スマホ向け*/
+@media(max-width:670px){
+  .header-char{
+    font-size:40px;
+    
+  }
+  
+  .header-char span{
+    font-size:20px;
+  }
+  .header-right li{
+    display:none;
+  }
+ 
+  .menu-icon{
+  display:block;
+  }
+
+  .top-wrapper .container{
+    text-align:left;
+  }
+
+  .menu-item{
+    width:100%;
+  }
+
+  .menu-wrapper .dinner{
+    width:50%;
+
+  }
+  .info-wrapper-contents{
+    width:100%;
+    text-align:left;
+
+  }
+  .info-wrapper h3{
+    text-align:left;
+  }
+
+  .heading{
+    padding-left:18px;
+    padding-right:18px;
+  }
+  
+  .heading h1, .heading h2{
+    text-align:left;
+    font-size:23px;
+    line-height:50px;
+  }
+  .master{
+    height:1030px;
+  }
+  
+
+  .w img{
+    width:100%;
+    height:890px;
+    width:193px;
+  }
+  .h img{
+    
+    width:100%;
+    padding-left:0px;
+    padding-right:0px;
+    height:650px;
+    width:350px;
+  }
+
+
+
+}
